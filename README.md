@@ -9,8 +9,9 @@ Trata-se de uma RESP API para um e-commerce. Utilizando os métodos e arquitetur
 * Link para o projeto: <a href="https://github.com/marcoscurymoreira/ecommerce-api-gama.git" target="_blank">GitHub</a>
   * Para clonar o projeto, execute git clone https://github.com/marcoscurymoreira/ecommerce-api-gama.git
   
+* Instalar o Express com npm i express
   
-* Iniciar o projeto com npm start.
+* Subir o servidor com npm start.
   
 * Algumas linhas de teste para utilizarmos:
   * Utilizando o método GET para retornar toda a lista de produtos: http://localhost:3000/produto
