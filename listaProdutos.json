@@ -1,0 +1,122 @@
+[
+    {
+        "idProduto": 1,
+        "descricao": "ADAPTADOR BLUETOOH USB RECEPTOR DE AUDIO P2",
+        "preco": 5.0,
+        "qtdEstoque": 10,
+        "disponivel": "sim",
+        "emDestaque": "sim",
+        "departamento": {
+            "idDepto": 1,
+            "nomeDepto": "Adaptadores"
+        }
+    },
+    {
+        "idProduto": 2,
+        "descricao": "ADAPTADOR CONECTOR HDMI FEMEA L / FEMEA",
+        "preco": 2.8,
+        "qtdEstoque": 20,
+        "disponivel": "sim",
+        "emDestaque": "sim",
+        "departamento": {
+            "idDepto": 1,
+            "nomeDepto": "Adaptadores"
+        }
+    },
+    {
+        "idProduto": 3,
+        "descricao": "ALICATE PARA CRIMPAR TL-315 3 EM 1",
+        "preco": 15.0,
+        "qtdEstoque": 16,
+        "disponivel": "sim",
+        "emDestaque": "sim",
+        "departamento": {
+            "idDepto": 2,
+            "nomeDepto": "Ferramentas"
+        }
+    },
+    {
+        "idProduto": 4,
+        "descricao": "CADEADO SEGURANCA PARA NOTEBOOK HLD F\u0026K LLAVE",
+        "preco": 6.5,
+        "qtdEstoque": 2,
+        "disponivel": "sim",
+        "emDestaque": "nao",
+        "departamento": {
+            "idDepto": 2,
+            "nomeDepto": "Ferramentas"
+        }
+    },
+    {
+        "idProduto": 5,
+        "descricao": "ANTENA P/TV DIGITAL KOLKE KVV288 INTERNA VHF/UHF/FHD PRETO",
+        "preco": 9.0,
+        "qtdEstoque": 6,
+        "disponivel": "sim",
+        "emDestaque": "sim",
+        "departamento": {
+            "idDepto": 3,
+            "nomeDepto": "Eletronicos"
+        }
+    },
+    {
+        "idProduto": 6,
+        "descricao": "APRESENTADOR LASER SATELLITE LR-26R PRETO",
+        "preco": 8.0,
+        "qtdEstoque": 0,
+        "disponivel": "nao",
+        "emDestaque": "nao",
+        "departamento": {
+            "idDepto": 3,
+            "nomeDepto": "Eletronicos"
+        }
+    },
+    {
+        "idProduto": 7,
+        "descricao": "ASPIRADOR NAPPO NLAR-063 ROBOT WIFI 350ML PRETO",
+        "preco": 87.0,
+        "qtdEstoque": 2,
+        "disponivel": "sim",
+        "emDestaque": "nao",
+        "departamento": {
+            "idDepto": 4,
+            "nomeDepto": "Casa"
+        }
+    },
+    {
+        "idProduto": 8,
+        "descricao": "BABA ELETRONICA MOTOROLA MBP161TIMER BRANCO",
+        "preco": 36.5,
+        "qtdEstoque": 7,
+        "disponivel": "sim",
+        "emDestaque": "sim",
+        "departamento": {
+            "idDepto": 4,
+            "nomeDepto": "Casa"
+        }
+    },
+    {
+        "idProduto": 9,
+        "descricao": "BASTAO SELFIE BLUETOOTH HAVIT HV-BTM33 PRETO",
+        "preco": 8.1,
+        "qtdEstoque": 7,
+        "disponivel": "sim",
+        "emDestaque": "sim",
+        "departamento": {
+            "idDepto": 5,
+            "nomeDepto": "Acessorios"
+        }
+    },
+    {
+        "idProduto": 10,
+        "descricao": "BATERIA GOLINE ALKALINE 9V 500MAH",
+        "preco": 1.2,
+        "qtdEstoque": 2,
+        "disponivel": "sim",
+        "emDestaque": "sim",
+        "departamento": {
+            "idDepto": 5,
+            "nomeDepto": "Acessorios"
+        }
+    }
+]
