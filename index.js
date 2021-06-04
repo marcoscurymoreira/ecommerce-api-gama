@@ -70,21 +70,46 @@ app.post('/produto', (req, res) => {
 
 
 //DESAFIO 4 PUT - EM CONSTRUÇÃO
-// app.put('/produto/:id', (req, res) => {
-//     let id = req.params.id;
+app.put('/produto/:id', (req, res) => {
 
-//     let {idProduto, descricao, preco, qtdEstoque, disponivel, emDestaque, departamento, idDepto, nomeDepto} = req.body
+    let id = req.params.id;
 
-//     if (idProduto <= 0 || !descricao || preco <= 0 || qtdEstoque < 0 || !disponivel || !emDestaque || !departamento  || departamento.idDepto <= 0  || !departamento.nomeDepto || idProduto === listaProdutos.idProduto){
-//         res.sendStatus(400);
+    let produtocorreto = 0;
+
+    for (listaBusca = 0; listaBusca < listaProdutos.length; listaBusca++) {
+        if (id == listaProdutos[listaBusca].idProduto) {
+            produtocorreto = 1
+            
+                let descricao = req.body.descricao
+                let preco = req.body.preco
+                let qtdEstoque = req.body.qtdEstoque
+                let disponivel = req.body.disponivel
+                let emDestaque = req.body.emDestaque
+
+                if (descricao == "" || preco <= 0 || qtdEstoque < 0 || disponivel == "" || emDestaque == "" || !descricao) {
+                    res.sendStatus(400)
+                } else {
+
+                    let produto = listaProdutos[listaBusca]
+                    produto.idProduto = id
+                    produto.descricao = descricao
+                    produto.preco = preco
+                    produto.qtdEstoque = qtdEstoque
+                    produto.disponivel = disponivel
+                    produto.emDestaque = emDestaque
+
+                    
+                    res.json(listaProdutos[listaBusca]);
 
 
-
-//     let {preco} = req.body;
-//     produto.preco = preco,
-//     res.json(produto);
-// })
-
+                }
+            
+        }
+    }
+    if(produtocorreto == 0) {
+        res.sendStatus(404)
+    }
+})
 
 
 
