@@ -69,17 +69,21 @@ app.post('/produto', (req, res) => {
 
 
 
-//DESAFIO 4 PUT - INCOMPLETO
-app.put('/produto/:id', (req, res) => {
-    let {id} = req.params;
+//DESAFIO 4 PUT - EM CONSTRUÇÃO
+// app.put('/produto/:id', (req, res) => {
+//     let id = req.params.id;
 
-    let produto = listaProdutos.find(prod => prod.id == id);
-    if (!produto) return res.status(204).json();
+//     let {idProduto, descricao, preco, qtdEstoque, disponivel, emDestaque, departamento, idDepto, nomeDepto} = req.body
 
-    let {preco} = req.body;
-    produto.preco = preco,
-    res.json(produto);
-})
+//     if (idProduto <= 0 || !descricao || preco <= 0 || qtdEstoque < 0 || !disponivel || !emDestaque || !departamento  || departamento.idDepto <= 0  || !departamento.nomeDepto || idProduto === listaProdutos.idProduto){
+//         res.sendStatus(400);
+
+
+
+//     let {preco} = req.body;
+//     produto.preco = preco,
+//     res.json(produto);
+// })
 
 
 
