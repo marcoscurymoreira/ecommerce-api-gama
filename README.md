@@ -2,11 +2,15 @@
 Trata-se de uma RESP API para um e-commerce. Utilizando os métodos e arquitetura REST, desenvolvemos um projeto para apresentar todo o estoque do e-commerce, buscar um produto específico, incluir novos produtos e alterar dados de produtos existentes.
 
 # O que utilizamos?
-* NodeJS v14.17.0
-* Express 4.17.1
+* [NodeJS v14.17.0](https://nodejs.org/en/)
+* [Express 4.17.1](https://expressjs.com/pt-br/)
 
 # E aí, como eu uso?
 * Link para clonar o projeto: [GitHub](https://github.com/marcoscurymoreira/ecommerce-api-gama.git)
+  * Executar git clone https://github.com/marcoscurymoreira/ecommerce-api-gama.git
+  
+  
+* Iniciar o projeto com npm start.
   
 * Algumas linhas de teste para utilizarmos:
   * Utilizando o método GET para retornar toda a lista de produtos: http://localhost:3000/produto
@@ -37,6 +41,6 @@ Trata-se de uma RESP API para um e-commerce. Utilizando os métodos e arquitetur
 * Este é um projeto realizado durante o Gama XP37. Todos os dados utilizados são fictícios.
 
 # Quem somos?
-* Anderley Quinteiro
+* [Anderley Quinteiro](https://github.com/anderleyson)
 * [Marcos Moreira](https://github.com/marcoscurymoreira)
 * Victor Reginato

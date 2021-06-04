@@ -66,21 +66,6 @@ app.post('/produto', (req, res) => {
 
 })
 
-//DESAFIO 3 - ISIDRO
-// app.post("/produto", (req, res) => {
-//     let produto = req.body;
-    
-//     if (produto.codProduto < 0 || !produto.descricao || !produto.disponivel || produto.preco <= 0 ){
-//         res.sendStatus(400);
-//     }
-//     else{
-//         listaProdutos.push(produto);
-//         res.sendStatus(200);
-//     }
-    
-// })
-
-
 
 
 
@@ -141,7 +126,6 @@ app.get('/departamento', (req, res) => {
     for (let i of listaProdutos){
         listaDepto.push({id: i.departamento.idDepto, name: i.departamento.nomeDepto})
 
-        if()
     }
     console.log(listaDepto)
     res.json(listaDepto)
