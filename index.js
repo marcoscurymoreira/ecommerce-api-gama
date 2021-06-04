@@ -69,7 +69,7 @@ app.post('/produto', (req, res) => {
 
 
 
-//DESAFIO 4 PUT - EM CONSTRUÇÃO
+//DESAFIO 4 PUT - OK
 app.put('/produto/:id', (req, res) => {
 
     let id = req.params.id;
