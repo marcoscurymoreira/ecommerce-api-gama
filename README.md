@@ -2,19 +2,6 @@
 
 
 
-
-
-# Índice
- 1. [O que fizemos?](#o-que-fizemos?)
- 2. [O que utilizamos?](#o-que-utilizamos?)
- 3. [E aí, como eu uso?](#e-aí,-como-eu-uso?)
- 4. [Vamos fazer alguns testes?](#vamos-fazer-alguns-testes?)
- 5. [O que mais preciso saber?](#o-que-mais-preciso-saber?)
- 6. [Quem somos??](#quem-somos?)
-<br></br>
-
-
-
 ># O que fizemos?
 Trata-se de uma RESP API para um e-commerce. Utilizando os métodos e arquitetura REST, desenvolvemos um projeto para apresentar todo o estoque do e-commerce, buscar um produto específico, incluir novos produtos e alterar dados de produtos existentes.
 <br></br>
