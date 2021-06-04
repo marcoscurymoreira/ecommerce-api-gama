@@ -113,7 +113,7 @@ app.get('/departamento', (req, res) => {
 
 
 
-//DESAFIO 6 GET ID DEPARTAMENTO - INCOMPLETO
+//DESAFIO 6 GET ID DEPARTAMENTO - OK
 app.get('/departamento/:id', (req, res) => {
 
     let listaProdDepto = []
