@@ -106,36 +106,46 @@ app.put('/produto/:id', (req, res) => {
 
 
 //DESAFIO 5 GET DEPARTAMENTO - INCOMPLETO
-app.get('/departamento', (req, res) => {
-    let idDepto = 0
-    let departamento = {
-        id: 0,
-        nomeDepto: "",
-    }
+// app.get('/departamento', (req, res) => {
+//     let idDepto = 0
+//     let departamento = {
+//         id: 0,
+//         nomeDepto: "",
+//     }
     
-    for(pos=0; pos<listaProdutos[pos].departamento.idDepto; pos++){
-        if(idDepto != listaProdutos[pos].departamento.idDepto){
-             if (departamento.id != 0){
-                 console.log("Departamento: " + departamento.nomeDepto);
-                 console.log("");
-             }
-             idDepto = listaProdutos[pos].departamento.idDepto;
-             departamento.id = idDepto;
-             departamento.nomeDepto = listaProdutos[pos].departamento.nomeDepto;
+//     for(pos=0; pos<listaProdutos[pos].departamento.idDepto; pos++){
+//         if(idDepto != listaProdutos[pos].departamento.idDepto){
+//              if (departamento.id != 0){
+//                  console.log("Departamento: " + departamento.nomeDepto);
+//                  console.log("");
+//              }
+//              idDepto = listaProdutos[pos].departamento.idDepto;
+//              departamento.id = idDepto;
+//              departamento.nomeDepto = listaProdutos[pos].departamento.nomeDepto;
 
-        }
+//         }
 
-     }
-     console.log("Departamento: " + departamento.nomeDepto);
-     console.log("Id departamento: " + departamento.idDepto);
-    let produto = listaProdutos.departamento.nomeDepto
-    res.send(produto)
+//      }
+//      console.log("Departamento: " + departamento.nomeDepto);
+//      console.log("Id departamento: " + departamento.idDepto);
+//     let produto = listaProdutos.departamento.nomeDepto
+//     res.send(produto)
+// })
+
+
+
+
+app.get('/departamento', (req, res) => {
+
+    let listaDepto = []
+    for (let i of listaProdutos){
+        listaDepto.push({id: i.departamento.idDepto, name: i.departamento.nomeDepto})
+
+        if()
+    }
+    console.log(listaDepto)
+    res.json(listaDepto)
 })
-
-
-
-
-
 
 
 
