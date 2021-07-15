@@ -89,4 +89,3 @@ Ok, clonamos o projeto, instalamos o que era necessário e nosso servidor está 
 ># Quem somos?
 * <a href="https://github.com/anderleyson" target="_blank">Anderley Quinteiro</a>
 * <a href="https://github.com/marcoscurymoreira" target="_blank">Marcos Moreira</a>
-* Victor Reginato
